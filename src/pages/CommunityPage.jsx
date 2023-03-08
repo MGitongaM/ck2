@@ -12,7 +12,7 @@ const CommunityPage = () => {
             <HeroCommunity/>
             <WhyCommunitySection/>
             <HowCommunitySection/>
-            {/* <ValuesCommunitySection/> */}
+            <ValuesCommunitySection/>
             <Footer/>
         </div>
     </>

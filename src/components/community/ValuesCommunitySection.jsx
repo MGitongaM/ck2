@@ -5,7 +5,7 @@ const ValuesCommunitySection = () => {
   return (
     <>
         <div className="w-10/12 mx-auto" >
-            <div  className=" bg-cover bg-center bg-no-repeat font-nunito bg-[url('/assets/valueCommunityBg.png')]">
+            {/* <div  className=" bg-cover bg-center bg-no-repeat font-nunito bg-[url('/assets/valueCommunityBg.png')]">
                 <div className="flex justify-start pl-20">
                     <div>
                         <img src="/assets/Rectangle.svg" alt="rounded-rectangle-image" className="object-contain  h-auto w-24 ml-15" />
@@ -34,19 +34,19 @@ const ValuesCommunitySection = () => {
                         <p>Integrity</p>
                     </div>
                 </div>
+            </div> */}
                 <div className="bg-orange-200 rounded-lg w-4/5 mx-auto my-12 font-nunito">
-                    <div className="text-center text-purple-900 text-2xl leading-8 py-2">
+                    {/* <div className="text-center text-purple-900 text-2xl leading-8 py-2">
                         <h3>Join a community of forward thinking <br/>teachers and get to learn, network and <br/>find opportunities. </h3>
-                    </div>
-                    <div className="flex justify-evenly">
+                    </div> */}
+                    <div className="flex justify-evenly items-center ">
                         <div><img src="/assets/Rocket.svg" alt="rocket-image"  className="object-cantain h-auto w-20 mx-auto"/></div>
-                        <div>
+                        <div className="">
                             <AirtableForm/>
                         </div>
                         <div><img src="/assets/arrow.svg" alt="arrow-image"  className="object-cantain h-auto w-20 mx-auto"/></div>
                     </div>
                 </div>
-            </div>
         </div>
     </>
   )
