@@ -22,7 +22,7 @@ const AirtableForm = () => {
             <label className="block mb-2 text-sm font-medium text-gray-900" htmlFor="Benefit">How do you see yourself benefitting from from the Kinetic Teachers Community? </label>
             <input type="text" name="benefit" id="Benefit" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block w-full p-2.5 " required/>
             <div className="flex justify-evenly">
-                <button className="bg-purple-500 rounded-lg px-4 py-2  mt-2 text-gray-800" onClick={onCancel}>Submit</button>
+                <button className="bg-purple-300 rounded-lg px-4 py-2  mt-2 text-gray-800">Submit</button>
                 <button className="bg-gray-500 rounded-lg px-4 py-2  mt-2 text-white" onClick={onCancel}>Close</button>
             </div>
             </Form>

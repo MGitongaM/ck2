@@ -17,22 +17,22 @@ const RouteLayout = () => {
                 <div className="hidden w-full md:block md:w-auto" id="navbar-default">
                   <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 ">
                     <li>
-                      <NavLink to="home" className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0" aria-current="page">Home</NavLink>
+                      <NavLink to="home" className="block py-2 pl-3 pr-4 text-gray-700  rounded md:bg-transparent md:p-0 md:border-0 md:hover:text-orange-500" >Home</NavLink>
                     </li>
                     <li>
-                      <NavLink to="about" className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0" >About</NavLink>
+                      <NavLink to="about" className="block py-2 pl-3 pr-4 text-gray-700  rounded md:bg-transparent md:p-0 md:border-0 md:hover:text-orange-500" >About</NavLink>
                     </li>
                     <li>
-                      <NavLink to="program" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Program</NavLink>
+                      <NavLink to="program" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0">Program</NavLink>
                     </li>
                     <li>
-                      <NavLink to="blog" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Blog</NavLink>
+                      <NavLink to="blog" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0">Blog</NavLink>
                     </li>
                     <li>
-                      <NavLink to="community" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Community</NavLink>
+                      <NavLink to="community" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0">Community</NavLink>
                     </li>
                     <li>
-                      <NavLink to="#" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">
+                      <NavLink to="#" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0">
                         <AirtableForm/>
                       </NavLink>
                     </li>
