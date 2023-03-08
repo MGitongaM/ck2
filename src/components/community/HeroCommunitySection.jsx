@@ -13,7 +13,7 @@ const HeroCommunity = () => {
         <AirtableForm/>
         </div>
         <div className="col-span-8">
-          <img src="/src/assets/heroCommunityBg.png" alt="hero-section-image" className="object-cover h-auto w-full" />
+          <img src="/assets/heroCommunityBg.png" alt="hero-section-image" className="object-cover h-auto w-full" />
         </div>
       </div>
 
