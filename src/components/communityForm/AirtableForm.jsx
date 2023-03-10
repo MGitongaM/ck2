@@ -1,5 +1,6 @@
 import { Form, redirect } from "react-router-dom"
 import { useRef } from "react"
+import axios from "axios"
 
 const AirtableForm = () => {
     const dialogRef=useRef()
@@ -44,6 +45,12 @@ export const communitySignupForm = async ({request})=>{
         school:data.get('school'),
         benefit:data.get('benefit')
     }
-    console.log(submission);
+    const headers={
+        'Authorization':'Bearer keyOoHuEFMlJwUjHS',
+        'Content-Type':'application/json'
+    }
+    axios.post(`https://api.airtable.com/v0/appXWo8MYm42PJoOw/Table%201`, submission,{headers:headers})
+    .then((resp)=>{console.log('success posting ')})
+    .catch((error)=>{console.log('error posting data')})
     return redirect('/community')
 }
