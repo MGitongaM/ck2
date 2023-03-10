@@ -4,10 +4,10 @@ import {FiTwitter,FiLinkedin,FiYoutube} from 'react-icons/fi'
 const Footer = () => {
   return (
     <>
-        <footer className='bg-purple-800 w-full px-10 py-4 font-nunito'>
-        <div className="w-10/12 mx-auto">
-            <div className="grid md:grid-cols-4 sm:grid-cols-1">
-                <di className="grid place-content-center"><img src="/assets/Kinetic Logo white.png with tagline.png" alt="kinetic-logo" className='object-cover h-25 w-20 mx-auto' /></di>
+        <footer className='bg-purple-800 w-full px-10 h-[15rem] py-4 font-nunito'>
+        <div className="w-10/12 mx-auto ">
+            <div className="grid md:grid-cols-4 sm:grid-cols-1 content-center">
+                <di className="grid place-content-center"><img src="/assets/Kinetic Logo white.png with tagline.png" alt="kinetic-logo" className='object-cover h-35 w-40 mx-auto' /></di>
                 <div className="grid place-content-center">
                     <ul className='text-gray-400'>
                         <li>Home</li>

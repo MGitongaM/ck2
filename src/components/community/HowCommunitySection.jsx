@@ -25,7 +25,7 @@ const HowCommunitySection = () => {
             <div className="border border-gray-200 rounded-lg p-4 ">
                 <img src="/assets/events.svg" alt="events-image" className="object-cover  h-auto w-4/5 mx-auto"/>
                 <h3 className="font-extrabold text-lg text-purple-800 my-4 ">Events</h3>
-                <p className="text-gray-700 ">We organize events, workshops<br/> fireside events<br/> teachers</p>
+                <p className="text-gray-700 ">We organize events, workshops<br/> fireside chats<br/></p>
             </div>
             <div className="border border-gray-200 rounded-lg p-4 ">
                 <img src="/assets/networking.svg" alt="networking-image" className="object-cover  h-auto w-4/5 mx-auto"/>
